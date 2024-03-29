@@ -49,7 +49,7 @@ jobs:
         uses: uraimo/run-on-arch-action@v2
         with:
           arch: aarch64
-          distro: ubuntu_latest
+          distro: ubuntu-18.04
           setup: |
             mkdir -p "${PWD}/artifacts"
           dockerRunArgs: |
