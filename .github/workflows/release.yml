@@ -37,7 +37,7 @@ jobs:
           path: target/release/t_renderer
 
   build-on-aarch:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     timeout-minutes: 60
 
     name: Build on aarch64
